@@ -6,6 +6,7 @@
 
     var imgBackground = new Image();
     imgBackground.src = "img/background.png";
+
     imgBackground.addEventListener("load", drawScreen, false);
 
     function drawScreen() {
